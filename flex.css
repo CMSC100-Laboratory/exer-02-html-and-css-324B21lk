@@ -28,8 +28,16 @@
     border-color: rgb(207, 159, 1);
 }
 .flex-photo {
-    width: 100%;
-    height: 100%;
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+  }
+
+.flex-photo2 {
+    width: 25%;
+    height: 25%;
     object-fit: cover;
     justify-content: center;
     align-items: center;

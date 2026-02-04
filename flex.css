@@ -2,7 +2,7 @@
     display: flex;
     border-style: solid;
     border-width: 5px;
-    border-color: red;
+    border-color: rgb(0, 0, 0);
     flex-direction: row;
 }
 
@@ -10,7 +10,7 @@
     display: flex;
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(52, 10, 100);
     flex-direction: row;
 }
 
@@ -18,13 +18,13 @@
     display: flex;
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(85, 36, 131);
     flex-direction: row;
 }
 .flex-item {
     border-style: solid;
     border-width: 2px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(207, 159, 1);
 }
 .flex-photo {
     width: 100%;

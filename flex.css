@@ -1,53 +1,83 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fdf6ff; 
+    margin: 0;
+    padding: 0;
+    color: #2a1a4d;
+}
+
+
+h2, h3 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    color: #5c2d91;
+}
+
 .flex-container {
     display: flex;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(24, 0, 80);
+    border: 5px solid #180050;
+    border-radius: 20px; 
     flex-direction: row;
     justify-content: space-around;
     margin: 20px 0;
+    padding: 15px;
+    background-color: #f3e5ff;
 }
 
 .nav_bar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(52, 10, 100);
-    padding: 10px;
+    border: 5px solid #340a64;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #f9eaff;
 }
+
 
 .nav_links {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    font-weight: bold;
 }
+
 
 .flex-container2 {
     display: flex;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(85, 36, 131);
+    border: 5px solid #552683;
+    border-radius: 20px;
     flex-direction: row;
     justify-content: center;
     margin-top: 20px;
+    padding: 15px;
+    background-color: #f4e6ff;
 }
 
 .flex-item {
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(207, 159, 1);
-    padding: 15px;
+    border: 2px solid #cf9f01;
+    border-radius: 15px;
+    padding: 20px;
     flex: 1;
     text-align: center;
+    margin: 10px;
+    background-color: #fff0ff;
+    transition: transform 0.3s;
 }
+
+.flex-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
 
 .flex-photo {
     width: 120px;
     height: auto;
     object-fit: cover;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .flex-photo2 {
@@ -55,20 +85,28 @@
     max-width: 450px;
     height: auto;
     object-fit: cover;
+    border-radius: 15px;
 }
+
 
 .skills-auto {
     justify-content: space-between;
 }
 
+
 .projects {
     justify-content: space-between;
 }
 
+
 .footer {
+    display: flex;
     flex-direction: row;
     align-items: center;
     gap: 15px;
+    padding: 15px;
+    background-color: #f9eaff;
+    border-top: 4px solid #5c2d91;
 }
 
 .footer-content {
@@ -80,13 +118,9 @@
 .footer-photo {
     width: 100px;
     height: auto;
+    border-radius: 50%; 
 }
 
 .footer-text {
     text-align: left;
-}
-
-
-h2 {
-    text-align: center;
 }

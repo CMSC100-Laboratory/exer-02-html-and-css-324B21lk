@@ -2,8 +2,9 @@
     display: flex;
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(24, 0, 80);
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .nav_bar {
@@ -30,4 +31,13 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    justify-content: center;
+    align-items: center;
   }
+
+.break {
+  flex-basis: 100%; /* Takes up the full width */
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
